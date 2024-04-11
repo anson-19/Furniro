@@ -215,39 +215,18 @@
 .right-side {
   width: 60%;
   overflow: hidden;
+  height: 100%;
 }
 
 .image-container {
   display: flex;
-  animation: slide 5s infinite; /* Animation duration: 5s, repeat infinitely */
-}
-
-.image {
-  position: relative;
-  margin-right: 10px; /* Adjust spacing between images */
-}
-
-.image img {
+  align-items: center;
+  justify-content: center;
   width: 100%;
-  height: auto;
+  height: 100%;
+  padding: 10%;
 }
-
 .image-name {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  background-color: rgba(255, 255, 255, 0.8);
-  padding: 5px 10px;
-  font-size: 14px;
-  font-weight: bold;
+  width: 100%;
+  height: 100%;
 }
-
-/*@keyframes slide {
-  0% {
-    transform: translateX(0);
-  }
-
-  100% {
-    transform: translateX(-100%);
-  }
-}*/
