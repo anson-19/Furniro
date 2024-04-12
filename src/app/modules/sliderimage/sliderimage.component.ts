@@ -17,18 +17,5 @@ export class SliderimageComponent {
 
   slideNext() {
     this.selectedIndex = (this.selectedIndex + 1) % this.images.length;
-    console.log("clicked")
   }
-
-/*  showPrev(i:number){
-      if(this.selectedIndex>0){
-        this.selectedIndex = i-1;
-      }
-  }
-  showNext(i:number){
-    if(this.selectedIndex<this.images?.length-1){
-      this.selectedIndex=i-1;
-    }
-  }*/
-
 }

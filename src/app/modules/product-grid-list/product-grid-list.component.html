@@ -1,0 +1,14 @@
+<div class="product-grid">
+  <div class="product" *ngFor="let grid of gridImages">
+    <img [src]="grid.ProductImage" [alt]="grid.imgAlt">
+    <div class="product-details">
+      <p class="product-name">{{grid.Name}}</p>
+      <p class="product-description">{{grid.Description}}</p>
+      <div class="price">
+        <del class="original-price">{{grid.Price}}</del> 
+        <strong class="discounted-price">{{grid.discountPrice}}</strong>
+      </div>
+    </div>
+    <button class="add-to-cart">Add to Cart</button>
+  </div>
+</div>
