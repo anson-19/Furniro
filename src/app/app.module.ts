@@ -7,6 +7,8 @@ import { LandingPageComponent } from './component/landing-page/landing-page.comp
 import { HeaderComponent } from './component/header/header.component';
 import { SliderimageComponent } from './modules/sliderimage/sliderimage.component';
 import { ProductGridListComponent } from './modules/product-grid-list/product-grid-list.component';
+import { FooterComponent } from './component/footer/footer.component';
+import { GalleryComponent } from './modules/gallery/gallery.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +17,8 @@ import { ProductGridListComponent } from './modules/product-grid-list/product-gr
     HeaderComponent,
     SliderimageComponent,
     ProductGridListComponent,
+    FooterComponent,
+    GalleryComponent,
     
   ],
   imports: [
