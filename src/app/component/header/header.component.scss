@@ -1,0 +1,42 @@
+/* Styling the header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #fff; 
+  color: black;
+  z-index:10;
+  position:relative;
+}
+
+/* Styling the logo */
+.logo img {
+  height: 40px; /* Adjust the height as needed */
+}
+
+/* Styling the navigation menu */
+.navigation ul {
+  list-style: none;
+  display: flex;
+}
+
+.navigation li {
+  margin-right: 20px; 
+}
+
+.navigation a {
+  text-decoration: none;
+  color: inherit; 
+}
+
+/* Styling the icons */
+.icons a {
+  margin-left: 10px;
+  color: inherit; 
+}
+
+/* Adjusting icon size */
+.icons i {
+  font-size: 20px; /* Adjust the size as needed */
+}

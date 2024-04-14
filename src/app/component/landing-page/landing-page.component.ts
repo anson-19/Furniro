@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import 'hammerjs';
 import { ProductGridViewModel } from '../../../models/productGridViewModel';
 
 @Component({
