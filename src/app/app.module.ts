@@ -9,6 +9,10 @@ import { SliderimageComponent } from './modules/sliderimage/sliderimage.componen
 import { ProductGridListComponent } from './modules/product-grid-list/product-grid-list.component';
 import { FooterComponent } from './component/footer/footer.component';
 import { GalleryComponent } from './modules/gallery/gallery.component';
+import { ShopComponent } from './component/shop/shop.component';
+import { CartComponent } from './component/cart/cart.component';
+import { TitleComponent } from './modules/title/title.component';
+import { QualityCardComponent } from './modules/quality-card/quality-card.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +23,10 @@ import { GalleryComponent } from './modules/gallery/gallery.component';
     ProductGridListComponent,
     FooterComponent,
     GalleryComponent,
+    ShopComponent,
+    CartComponent,
+    TitleComponent,
+    QualityCardComponent,
     
   ],
   imports: [

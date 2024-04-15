@@ -7,7 +7,7 @@
 .header {
   position: static;
   width: 100%;
-  height: 100vh; /* Adjust height as needed */
+  height: 100vh;
   overflow: hidden;
 }
 
@@ -69,7 +69,7 @@
 }
 
 .heading-container {
-  text-align: center; /* Center align the headings */
+  text-align: center; 
   padding: 40px;
 }
 
@@ -122,13 +122,13 @@
 .main-heading {
   font-weight: bold;
   font-size: 24px;
-  text-align: left; /* Align text left */
-  margin-bottom: 10px; /* Adjust margin */
+  text-align: left; 
+  margin-bottom: 10px;
 }
 
 .description {
   font-size: 16px;
-  text-align: left; /* Align text left */
+  text-align: left; 
   margin-bottom: 20px;
 }
 

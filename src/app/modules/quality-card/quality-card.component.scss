@@ -1,0 +1,36 @@
+.service {
+  padding: 40px 20px;
+  text-align: center;
+  margin: 20px 0px;
+  background-color: #FAF3EA;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.icon {
+  font-size: 35px;
+  margin: 10px;
+}
+
+.service h2 {
+  font-size: 18px;
+  color: #333;
+  margin: 5px 0; 
+}
+
+.service p {
+  font-size: 14px;
+  color: #777;
+  margin: 5px 0; 
+}
+
+.d-flex {
+  align-items: center;
+}
+.contentTitle {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 10px;
+}
